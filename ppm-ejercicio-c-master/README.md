@@ -1,9 +1,9 @@
-##PPM Processor 
-##Trabajo Final de Seminario de Lenguajes opción C
-##Ariel Dapia Graziani
+## PPM Processor 
+## Trabajo Final de Seminario de Lenguajes opción C
+## Ariel Dapia Graziani
 
 
-###Parámetros:
+### Parámetros:
 
 * `-i entrada.ppm`: archivo origen. Opción requerida
 * `-o salida.ppm`: archivo salida. Opción requerida
@@ -22,7 +22,7 @@
 * `-l NUM `: cambia el brillo de la imagen, si NUM es positivo el brillo aumenta y si NUM es negativo la imagen se oscurece. Los valores de NUM permitidos son de -254 a 254
 * `-k RGB`: quita los colores que se especifiquen como argumento siendo r o R rojo, g o G verde y b o B azul. Se pueden usar varios colores como argumento.
 
-###Return values:
+### Return values:
 
 	0: Program ended as expected.
 	1: Called ‘?’ for help.
@@ -34,7 +34,7 @@
 	7: Wrong argument type.
 	8: Parameter not recognized.
 
-###Se compila con:
+### Se compila con:
 ```
 $ gcc -o ppm-processor *c -Wall -lm
 ```	
