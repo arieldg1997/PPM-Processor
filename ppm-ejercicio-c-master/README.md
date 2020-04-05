@@ -38,7 +38,7 @@
 ```
 $ gcc -o ppm-processor *c -Wall -lm
 ```	
-###Sentencia de ejemplo:
+### Sentencia de ejemplo:
 ```
 $ ./ppm-processor -i samples/couple.ppm  -o samples/output.ppm -r -p 4 -g
 ```
